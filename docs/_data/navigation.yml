@@ -1,0 +1,7 @@
+main:
+  - title: "Rezepte"
+    url: /recipes-archive/
+  - title: "Kategorien"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
