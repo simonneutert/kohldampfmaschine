@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Mexican Hand Warmer"
+title:  "Soft Burrito Hand Warmer"
 categories: mexikanisch
 tags: mexikanisch reis bohnen wrap veggie-optional bis5euro
 author: Simon Neutert
