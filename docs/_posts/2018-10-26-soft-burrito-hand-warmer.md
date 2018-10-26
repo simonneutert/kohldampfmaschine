@@ -2,7 +2,7 @@
 layout: single
 title:  "Mexican Hand Warmer"
 categories: mexikanisch
-tags: mexikanisch reis bohnen wrap veggie-optional 5euro combo pimpable
+tags: mexikanisch reis bohnen wrap veggie-optional bis5euro
 author: Simon Neutert
 ---
 
