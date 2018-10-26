@@ -2,11 +2,11 @@
 layout: single
 title:  "Lachs Wrap Aloha"
 categories: sushi
-tags: sushi reis lachs fisch veggie-optional 8euro combo pimpable
+tags: sushi reis lachs fisch 8euro combo pimpable
 author: Simon Neutert
 ---
 
-3 leckere Lachs-Avocado-Wraps
+Lachs-Avocado-Wraps
 
 #### Kosten für 2 Personen
 _ca. 10 Euro_
