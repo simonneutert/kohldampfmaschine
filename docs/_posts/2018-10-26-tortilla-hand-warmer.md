@@ -2,11 +2,11 @@
 layout: single
 title:  "Tortilla Hand Warmer"
 categories: mexikanisch
-tags: mexikanisch reis bohnen wrap veggie-option 5euro
+tags: 5euro mexikanisch reis bohnen wrap veggie-option
 author: Simon Neutert
 ---
 
-Schnelle Reis-Bohnen Burritos
+Schnelle Reis-Bohnen Soft Tortillas
 
 #### Kosten für 2 Personen
 _ca. 8 Euro_

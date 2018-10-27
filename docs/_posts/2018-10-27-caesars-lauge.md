@@ -2,7 +2,7 @@
 layout: single
 title:  "Cäsars Lauge"
 categories: sandwich
-tags: lauge schinken 5euro veggie-option
+tags: 5euro lauge schinken veggie-option
 author: Simon Neutert
 ---
 
@@ -16,7 +16,7 @@ _ca. 8 Euro_
 | Hauptzutaten | optionale Zutaten |
 |---|---|
 | Laugenkranz | gek. Ei |
-| Gut und Günstig Schinkenkrustenbraten | Tomate |
+| _Gut und Günstig_ Schinkenkrustenbraten | Tomate |
 | Salat | Käse |
 | Salatgurke | |
 

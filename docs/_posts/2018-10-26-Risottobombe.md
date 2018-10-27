@@ -2,7 +2,7 @@
 layout: single
 title:  "Risottobombe"
 categories: mediterran
-tags: mediterran reis käse veggie-option 5euro
+tags: 5euro mediterran reis käse veggie-option
 author: Simon Neutert
 ---
 

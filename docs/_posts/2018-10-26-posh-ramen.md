@@ -2,7 +2,7 @@
 layout: single
 title:  "Posh Ramen"
 categories: asiatisch suppe
-tags: asiatisch ramen udong nudeln veggie-option 5euro suppe
+tags: 5euro asiatisch ramen udong nudeln veggie-option suppe
 author: Simon Neutert
 ---
 
