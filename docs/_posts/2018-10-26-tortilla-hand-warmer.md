@@ -2,7 +2,7 @@
 layout: single
 title:  "Tortilla Hand Warmer"
 categories: mexikanisch
-tags: mexikanisch reis bohnen wrap veggie-optional 5euro
+tags: mexikanisch reis bohnen wrap veggie-option 5euro
 author: Simon Neutert
 ---
 

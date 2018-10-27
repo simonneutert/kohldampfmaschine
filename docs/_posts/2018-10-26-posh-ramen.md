@@ -2,7 +2,7 @@
 layout: single
 title:  "Posh Ramen"
 categories: asiatisch suppe
-tags: asiatisch ramen udong nudeln veggie-optional 5euro suppe
+tags: asiatisch ramen udong nudeln veggie-option 5euro suppe
 author: Simon Neutert
 ---
 
@@ -18,7 +18,7 @@ _ca. 10 Euro_
 | Miso Udon | Koriander, Petersilie |
 | 150g Hähnchenbrust | Spinat |
 | Sprossenmix | Paprika |
-| Ei | |
+| gek. Ei | |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 Salz, Pfeffer, Soyasoße
