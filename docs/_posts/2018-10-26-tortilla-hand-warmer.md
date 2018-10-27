@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Burrito Hand Warmer"
+title:  "Tortilla Hand Warmer"
 categories: mexikanisch
 tags: mexikanisch reis bohnen wrap veggie-optional 5euro
 author: Simon Neutert
@@ -18,7 +18,7 @@ _ca. 8 Euro_
 | _Uncle Ben's_ Basmati Reis | Joghurt oder Sour Creme |
 | _Gut und Günstig_ Chili Mix (Dose) | Minze oder Koriander |
 | _Gut und Günstig_ Mozzarella | Eisbergsalat |
-| _Old El Paso_ Soft Burritos (8x) | Hähnchenbrust |
+| _Old El Paso Soft Tortillas (8x) | Hähnchenbrust |
 | |Tomaten |
 | |Chili |
 | |Speck |
