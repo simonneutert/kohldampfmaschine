@@ -18,6 +18,7 @@ Einige Zutaten kann man auf Lager halten, um seine Mittagspause mit ordentlich W
 - Maggi
 
 ### Tipps
-- Plane im Voraus
+- Bring exotische Zutaten von Zuhause mit
 - Freitags werden die Reste verwertet
-- Kollegen zum Kochen bringen :-)
+- Kollegen einbinden (Soft Skills)
+- Plane im Voraus

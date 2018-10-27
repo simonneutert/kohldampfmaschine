@@ -2,7 +2,7 @@
 layout: single
 title:  "Lachs Wrap Aloha"
 categories: sushi
-tags: 8euro sushi reis lachs fisch 
+tags: 8euro sushi reis lachs fisch
 author: Simon Neutert
 ---
 
