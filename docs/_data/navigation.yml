@@ -1,6 +1,8 @@
 main:
   - title: "Rezepte"
     url: /recipes-archive/
+  - title: "Tipps"
+    url: /lager-bestand-tipps/
   - title: "Kategorien"
     url: /categories/
   - title: "Tags"
