@@ -31,7 +31,7 @@ minimal_mistakes_skin: "mint" # "default", "air", "aqua", "contrast", "dark", "d
 permalink: /:categories/:title/
 breadcrumbs: true  # disabled by default
 
-paginate: 3 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 
 # Collections
