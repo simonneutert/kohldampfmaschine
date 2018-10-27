@@ -2,7 +2,7 @@
 layout: single
 title:  "Risottobombe"
 categories: mediterran
-tags: mediterran reis käse veggie-optional bis5euro
+tags: mediterran reis käse veggie-optional 5euro
 author: Simon Neutert
 ---
 
@@ -19,7 +19,7 @@ _ca. 8 Euro_
 | 1 Mozzarella | Minze oder Koriander |
 | 150g Hähnchenbrust | Tomate |
 
-#### aus dem [Lager/Bestand]({{baseurl}}/lager-bestand-tipps)
+#### aus dem {% include lager-bestand-tipps.html %}
 Salz, Pfeffer
 
 ## Zubereitung

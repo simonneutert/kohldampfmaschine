@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "Soft Burrito Hand Warmer"
+title:  "Burrito Hand Warmer"
 categories: mexikanisch
-tags: mexikanisch reis bohnen wrap veggie-optional bis5euro
+tags: mexikanisch reis bohnen wrap veggie-optional 5euro
 author: Simon Neutert
 ---
 
-4 sättigende Reis-Bohnen Burritos
+Schnelle Reis-Bohnen Burritos
 
 #### Kosten für 2 Personen
 _ca. 8 Euro_
@@ -24,7 +24,7 @@ _ca. 8 Euro_
 | |Speck |
 | |Avocado |
 
-#### aus dem [Lager/Bestand]({{baseurl}}/lager-bestand-tipps)
+#### aus dem {% include lager-bestand-tipps.html %}
 Chilisoße, Hot Dog Senf
 
 ## Zubereitung

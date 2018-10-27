@@ -2,7 +2,7 @@
 layout: single
 title:  "Lachs Wrap Aloha"
 categories: sushi
-tags: sushi reis lachs fisch bis8euro
+tags: sushi reis lachs fisch 8euro
 author: Simon Neutert
 ---
 
@@ -21,7 +21,7 @@ _ca. 10 Euro_
 | _Gut und Günstig_ Wraps | Salatgurke |
 | |Tomaten |
 
-#### aus dem [Lager/Bestand]({{baseurl}}/lager-bestand-tipps)
+#### aus dem {% include lager-bestand-tipps.html %}
 Salz, Pfeffer, Soyasoße
 
 ## Zubereitung

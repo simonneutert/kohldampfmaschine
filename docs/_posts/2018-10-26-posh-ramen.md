@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "10minute Ramen"
+title:  "Posh Ramen"
 categories: asiatisch suppe
-tags: asiatisch ramen udong nudeln veggie-optional bis5euro suppe
+tags: asiatisch ramen udong nudeln veggie-optional 5euro suppe
 author: Simon Neutert
 ---
 
-Ramensuppe mit Gemüse, Ei und Hühnchen
+Ramensuppe mit Gemüse, Hühnchenbrust und Ei
 
 #### Kosten für 2 Personen
 _ca. 10 Euro_
@@ -15,12 +15,12 @@ _ca. 10 Euro_
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| Miso Ramen | Koriander, Petersilie |
+| Miso Udon | Koriander, Petersilie |
 | 150g Hähnchenbrust | Spinat |
 | Sprossenmix | Paprika |
 | Ei | |
 
-#### aus dem [Lager/Bestand]({{baseurl}}/lager-bestand-tipps)
+#### aus dem {% include lager-bestand-tipps.html %}
 Salz, Pfeffer, Soyasoße
 
 ## Zubereitung

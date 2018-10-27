@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Die Uhr steht auf Mahlzeit. Der Magen knurrt. Los wir gehen Edeka!
 # baseurl: "/Kohldampfmaschine" # the subpath of your site, e.g. /blog
 # url: "http://simonneutert.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  simonneutert
 repository: "simonneutert/kohldampfmaschine"
 
@@ -31,8 +31,8 @@ minimal_mistakes_skin: "mint" # "default", "air", "aqua", "contrast", "dark", "d
 permalink: /:categories/:title/
 breadcrumbs: true  # disabled by default
 
-paginate: 5 # amount of posts to show
-paginate_path: /rezepte/page:num/
+paginate: 3 # amount of posts to show
+paginate_path: /page:num/
 
 # Collections
 # collections:
