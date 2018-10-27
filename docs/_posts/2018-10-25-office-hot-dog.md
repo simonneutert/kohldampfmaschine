@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Office Dogs"
+title:  "Office Hot Dogs"
 categories: sandwich
 tags: 8euro junkfood würstchen
 author: Simon Neutert
