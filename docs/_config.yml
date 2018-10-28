@@ -34,7 +34,7 @@ breadcrumbs: true  # disabled by default
 paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 
-og_image: /assets/images/kohldampfmaschine.svg
+og_image: /assets/images/kohldampfmaschine-og.jpg
 
 # Collections
 # collections:
