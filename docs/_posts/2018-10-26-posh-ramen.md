@@ -29,6 +29,6 @@ Salz, Pfeffer, Soyasoße
 4. Suppe in der Mikrowelle erneut aufkochen
 5. Sprossenmix und Ei auflegen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 10 Euro_
+_ca. 10 Euro_ für 2 Personen

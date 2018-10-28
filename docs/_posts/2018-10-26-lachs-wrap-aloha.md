@@ -33,6 +33,6 @@ __Vorab__ ca. 60 Minuten vor Mittag den Reis in Mikrowelle erhitzen und abkühle
 5. Salzen, pfeffern und etwas Soyasoße mit einem Teelöffel auftragen
 6. Avocado-Scheiben auflegen und Wrap rollen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 10 Euro_
+_ca. 10 Euro_ für 2 Personen

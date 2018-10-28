@@ -30,6 +30,6 @@ Salz, Pfeffer, Remoulade
 4. Salzen, pfeffern oder Chilipulver
 5. Wrap rollen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 10 Euro_
+_ca. 10 Euro_ für 2 Personen

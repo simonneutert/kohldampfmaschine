@@ -28,6 +28,6 @@ Salz, Pfeffer, Ketchup
 3. Ab in die Mikrowelle
 4. anrichten wie bei IKEA
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 12 Euro_
+_ca. 12 Euro_ für 2 Personen

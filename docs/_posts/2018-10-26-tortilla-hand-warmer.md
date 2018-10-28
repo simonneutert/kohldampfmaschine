@@ -33,6 +33,6 @@ Chilisoße, Hot Dog Senf
 4. Chilisoße und Senf nach belieben
 5. Burritos bis zur Hälfte füllen und erneut erhitzen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 8 Euro_
+_ca. 8 Euro_ für 2 Personen

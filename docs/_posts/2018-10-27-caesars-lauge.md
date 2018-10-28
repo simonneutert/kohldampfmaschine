@@ -30,6 +30,6 @@ Salz, Pfeffer, Remoulade
 5. Salatgurke dünn aufschneiden, auflegen
 6. salzen, pfeffern, Deckel auflegen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 8 Euro_
+_ca. 8 Euro_ für 2 Personen

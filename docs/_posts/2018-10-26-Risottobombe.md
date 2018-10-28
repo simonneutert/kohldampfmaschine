@@ -16,6 +16,10 @@ Käse-Reis-Schüssel
 | 1 Mozzarella | Minze oder Koriander |
 | 150g Hähnchenbrust | Tomate |
 
+#### aus dem {% include lager-bestand-tipps.html %}
+
+Salz, Pfeffer
+
 ## Zubereitung
 
 1. Reis in der Mikrowelle erhitzen (Hälfte der Zeit)
@@ -24,10 +28,6 @@ Käse-Reis-Schüssel
 4. zu Ende garen
 5. würzen
 
-#### Kosten für 2 Personen
+#### Kosten
 
-_ca. 8 Euro_
-
-#### aus dem {% include lager-bestand-tipps.html %}
-
-Salz, Pfeffer
+_ca. 8 Euro_ für 2 Personen
