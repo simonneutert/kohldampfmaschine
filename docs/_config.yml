@@ -105,6 +105,8 @@ locale: de
 search: true
 timezone: Europe/Berlin
 
+google_site_verification: uOkZ5Hhj1TeI02Wt680PeDo0nlAfhKMjWADqsvnoeHM
+
 footer:
   links:
     - label: "Simon Neutert"
