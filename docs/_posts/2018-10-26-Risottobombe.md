@@ -8,9 +8,6 @@ author: Simon Neutert
 
 Käse-Reis-Schüssel
 
-#### Kosten für 2 Personen
-_ca. 8 Euro_
-
 ### Einkaufsliste
 
 | Hauptzutaten | optionale Zutaten |
@@ -19,12 +16,18 @@ _ca. 8 Euro_
 | 1 Mozzarella | Minze oder Koriander |
 | 150g Hähnchenbrust | Tomate |
 
-#### aus dem {% include lager-bestand-tipps.html %}
-Salz, Pfeffer
-
 ## Zubereitung
+
 1. Reis in der Mikrowelle erhitzen (Hälfte der Zeit)
 2. Mozzarella zerkleinern, aufteilen und unter den Reis rühren
 3. Hähnchenbrust, klein schneiden und unter den Reis rühren
 4. zu Ende garen
 5. würzen
+
+#### Kosten für 2 Personen
+
+_ca. 8 Euro_
+
+#### aus dem {% include lager-bestand-tipps.html %}
+
+Salz, Pfeffer

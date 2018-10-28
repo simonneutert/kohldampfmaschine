@@ -2,14 +2,11 @@
 layout: single
 title:  "Lachs Wrap Aloha"
 categories: sushi
-tags: 8euro sushi reis lachs fisch
+tags: 8euro sushi reis fisch
 author: Simon Neutert
 ---
 
 Lachs-Avocado-Wraps
-
-#### Kosten für 2 Personen
-_ca. 10 Euro_
 
 ### Einkaufsliste
 
@@ -22,9 +19,11 @@ _ca. 10 Euro_
 | |Tomaten |
 
 #### aus dem {% include lager-bestand-tipps.html %}
+
 Salz, Pfeffer, Soyasoße
 
 ## Zubereitung
+
 __Vorab__ ca. 60 Minuten vor Mittag den Reis in Mikrowelle erhitzen und abkühlen lassen
 
 1. Avocado halbieren und in dünne Scheiben schneiden
@@ -33,3 +32,7 @@ __Vorab__ ca. 60 Minuten vor Mittag den Reis in Mikrowelle erhitzen und abkühle
 4. Lachs wie bei einem Nigiri auf den Reis legen
 5. Salzen, pfeffern und etwas Soyasoße mit einem Teelöffel auftragen
 6. Avocado-Scheiben auflegen und Wrap rollen
+
+#### Kosten für 2 Personen
+
+_ca. 10 Euro_

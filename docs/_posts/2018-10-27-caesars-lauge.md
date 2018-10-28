@@ -2,14 +2,11 @@
 layout: single
 title:  "Cäsars Lauge"
 categories: sandwich
-tags: 5euro lauge schinken veggie-option
+tags: 5euro lauge wurst veggie-option
 author: Simon Neutert
 ---
 
 Lachs-Avocado-Wraps
-
-#### Kosten für 2 Personen
-_ca. 8 Euro_
 
 ### Einkaufsliste
 
@@ -21,12 +18,18 @@ _ca. 8 Euro_
 | Salatgurke | |
 
 #### aus dem {% include lager-bestand-tipps.html %}
+
 Salz, Pfeffer, Remoulade
 
 ## Zubereitung
+
 1. Laugenkranz aufschneiden
 2. Unterseite des Laugenkranzes mit Remoulade (und Butter) bestreichen
 3. Salat auflegen
 4. Schinkenkrustenbraten / Käse auflegen
 5. Salatgurke dünn aufschneiden, auflegen
 6. salzen, pfeffern, Deckel auflegen
+
+#### Kosten für 2 Personen
+
+_ca. 8 Euro_

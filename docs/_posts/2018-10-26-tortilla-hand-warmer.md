@@ -8,9 +8,6 @@ author: Simon Neutert
 
 Schnelle Reis-Bohnen Soft Tortillas
 
-#### Kosten für 2 Personen
-_ca. 8 Euro_
-
 ### Einkaufsliste
 
 | Hauptzutaten | optionale Zutaten |
@@ -25,11 +22,17 @@ _ca. 8 Euro_
 | |Avocado |
 
 #### aus dem {% include lager-bestand-tipps.html %}
+
 Chilisoße, Hot Dog Senf
 
 ## Zubereitung
+
 1. Reis in der Mikrowelle erhitzen
 2. Bohnen/Mais Mischung unterrühren
 3. gerupften Mozzarella unterrühren
 4. Chilisoße und Senf nach belieben
 5. Burritos bis zur Hälfte füllen und erneut erhitzen
+
+#### Kosten für 2 Personen
+
+_ca. 8 Euro_
