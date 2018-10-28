@@ -24,4 +24,8 @@ _ca. 10 Euro_
 Salz, Pfeffer, Soyasoße
 
 ## Zubereitung
-coming soon
+1. Wasser im Wasserkocher aufkochen
+2. Wasser, Nudeln und Würzmischung in eine Schüssel geben
+3. gewürfelte Hähnchenbrust der Suppe auflegen
+4. Suppe in der Mikrowelle erneut aufkochen
+5. Sprossenmix und Ei auflegen
