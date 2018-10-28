@@ -34,6 +34,8 @@ breadcrumbs: true  # disabled by default
 paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 
+og_image: /assets/images/kohldampfmaschine.svg
+
 # Collections
 # collections:
 #   recipes:
@@ -102,6 +104,12 @@ tag_archive:
 locale: de
 search: true
 timezone: Europe/Berlin
+
+footer:
+  links:
+    - label: "Simon Neutert"
+      icon: "far fa-fw fa-address-card"
+      url: "https://www.simon-neutert.de"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
