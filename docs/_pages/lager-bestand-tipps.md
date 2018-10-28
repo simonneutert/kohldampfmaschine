@@ -14,7 +14,7 @@ Einige Zutaten kann man auf Lager haben:
 
 ### Tipps
 - __Reste verwerten__, nutze die __Suchfunktion__!<br>
-<small>Salatgurke braucht man in der Regel nicht auf.</small>
+<small><i>Salatgurke</i> braucht man in der Regel nicht auf.</small>
 - gemeinsam kochen, Kollegen einbinden<br>
 (Soft Skills sinnvoll nutzen)
 - Plane im Voraus, sei kreativ beim Verwerten
