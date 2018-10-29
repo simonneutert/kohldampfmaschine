@@ -112,6 +112,9 @@ footer:
     - label: "Simon Neutert"
       icon: "far fa-fw fa-address-card"
       url: "https://www.simon-neutert.de"
+    - label: "WTFPL Lizenz"
+      icon: "fas fa-fw fa-gavel"
+      url: "http://www.wtfpl.net/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
