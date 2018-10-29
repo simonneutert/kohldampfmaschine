@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Cäsars Lauge"
+title:  "Cäsars Kranz"
 categories: sandwich
 tags: 5euro lauge wurst veggie-option
 author: Simon Neutert
@@ -10,7 +10,7 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-Lachs-Avocado-Wraps
+Herzhafter Laugenkranz
 
 ### Einkaufsliste
 
