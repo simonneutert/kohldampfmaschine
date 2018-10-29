@@ -2,7 +2,7 @@
 layout: collection
 title: "Rezepte"
 collection: posts
-permalink: /recipes-archive/
+permalink: /rezepte/
 author_profile: false
 entries_layout: grid
 sort_by: title
