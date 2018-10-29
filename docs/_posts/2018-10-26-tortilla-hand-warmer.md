@@ -4,6 +4,11 @@ title:  "Tortilla Hand Warmer"
 categories: mexikanisch
 tags: 5euro mexikanisch reis bohnen wrap veggie-option
 author: Simon Neutert
+header:
+  overlay_image: /assets/images/rezepte/2018-10-26-tortilla.jpg
+  teaser: /assets/images/rezepte/2018-10-26-tortilla-teaser.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo by [Edgar Castrejon](https://unsplash.com/photos/J04BD4ysoh8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/thuna-wrap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 Schnelle Reis-Bohnen Soft Tortillas

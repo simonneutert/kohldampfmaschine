@@ -1,12 +1,17 @@
 ---
 layout: single
-title:  "Office Hot Dogs"
+title:  "Office Hotdogs"
 categories: sandwich
 tags: 8euro junkfood wurst
 author: Simon Neutert
+header:
+  overlay_image: /assets/images/rezepte/2018-10-25-office-hot-dog.jpg
+  teaser: /assets/images/rezepte/2018-10-25-office-hot-dog-teaser.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo by [Annie Spratt](https://unsplash.com/photos/61ffCM6IyoQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/hotdog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
-Lachs-Avocado-Wraps
+Hotdogs - im Office!
 
 ### Einkaufsliste
 

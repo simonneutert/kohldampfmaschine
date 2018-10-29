@@ -4,6 +4,10 @@ title:  "Posh Ramen"
 categories: asiatisch suppe
 tags: 5euro asiatisch ramen udon nudeln veggie-option suppe
 author: Simon Neutert
+header:
+  overlay_image: /assets/images/rezepte/2018-10-25-posh-ramen.jpg
+  teaser: /assets/images/rezepte/2018-10-25-posh-ramen.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 Ramensuppe mit Gemüse, Hühnchenbrust und Ei

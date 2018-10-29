@@ -4,6 +4,11 @@ title:  "Risottobombe"
 categories: mediterran
 tags: 5euro mediterran reis käse veggie-option
 author: Simon Neutert
+header:
+  overlay_image: /assets/images/rezepte/2018-10-26-risottobombe.jpg
+  teaser: /assets/images/rezepte/2018-10-26-risottobombe-teaser.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo by [Julien Pianetti](https://unsplash.com/photos/qIPRTMulc-g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/risotto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 Käse-Reis-Schüssel
