@@ -23,11 +23,29 @@ class Edeka24
   end
 
   def parse_products
-    @data.first.last.each do |item|
-      url = item
+    @data.first.last.each_with_index do |item, i|
+      # guard clauses
+      whitelist = ['Lebensmittel', 'Getraenke']
+      blacklist = [
+        'Wein', 'Spirituosen', 'Sekt',
+        'Drogerie', 'Knabber', 'Kaffee',
+        'Whisky', 'Erfrischungsgetraenke', 'Likoere',
+        'Tee', 'Sportlernahrung', 'Kaugummi',
+        'Konfituere', 'zucker', 'Wrigleys',
+        'Mixgetraenke', 'Riegel', 'Bonbons',
+        'Muesli', 'Kuchen', 'aufstrich',
+        'Saefte', 'Trolli', 'Backzutaten',
+        'Haribo', 'Marmelade', 'Suesswaren',
+        'glutenfrei', 'laktosefrei', 'Essig',
+        'brot'
+      ]
+      next unless whitelist.any? { |word| item.downcase.include?(word.downcase) }
+      next if blacklist.any? { |word| item.downcase.include?(word.downcase) }
+
+      url = item.gsub('https://www.edeka24.de', '')
       name = item.split("/").last.chomp(".html").gsub("-", " ")
       signature = name.downcase.delete(" ").chars.sort(&:casecmp).join
-      @products[url] = {
+      @products[i] = {
         name: name,
         url: url,
         signature: signature
