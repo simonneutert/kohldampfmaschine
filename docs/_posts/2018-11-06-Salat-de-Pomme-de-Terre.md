@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Salat Pomme de Terre"
+title:  "Aardappelsalade"
 categories: salat
 tags: 5euro veggie-option
 author: Simon Neutert
@@ -18,8 +18,8 @@ Warmer Kartoffelsalat
 | Hauptzutaten | optionale Zutaten |
 |---|---|
 | Kartoffeln vorgekocht und geschält | gek. Ei |
-| Fleischkäse | |
-| 1 Zwiebel | | 
+| Fleischkäse | Wiener Würstchen |
+| 1 Zwiebel | Gewürzgurken | 
 
 #### aus dem {% include lager-bestand-tipps.html %}
 
