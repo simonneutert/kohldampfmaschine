@@ -17,10 +17,10 @@ Hotdogs - im Office!
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| <e24>_Gut und Günstig_ Würstchen im Glas</e24> | <e24>Jalapeños</e24> |
-| <e24>_Gut und Günstig_ Hot Dog Brötchen</e24> | <e24>Cornichons</e24> |
-| <e24>Röstzwiebeln</e24> | <e24>Käse</e24> |
-| | <e24>Salatgurke</e24> |
+| _Gut und Günstig_ Würstchen im Glas | Jalapeños |
+| _Gut und Günstig_ Hot Dog Brötchen | Cornichons |
+| Röstzwiebeln | Käse |
+| | Salatgurke |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 

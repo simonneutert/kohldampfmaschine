@@ -17,7 +17,7 @@ Herzhafter Laugenkranz
 | Hauptzutaten | optionale Zutaten |
 |---|---|
 | Laugenkranz | gek. Ei |
-| <e24>_Gut und Günstig_ Schinkenkrustenbraten</e24> | Tomate |
+| _Gut und Günstig_ Schinkenkrustenbraten | Tomate |
 | Salat | Käse |
 | Salatgurke | |
 

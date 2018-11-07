@@ -16,9 +16,9 @@ Ramensuppe mit Gemüse, Hühnchenbrust und Ei
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| <e24>Miso Udon</e24> | Koriander, Petersilie |
-| 150g <e24>Hähnchenbrust</e24> | Spinat |
-| <e24>Sprossenmix</e24> | Paprika |
+| Miso Udon | Koriander, Petersilie |
+| 150g Hähnchenbrust | Spinat |
+| Sprossenmix | Paprika |
 | gek. Ei | |
 
 #### aus dem {% include lager-bestand-tipps.html %}
