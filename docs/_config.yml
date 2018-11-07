@@ -55,7 +55,7 @@ defaults:
       share: true
       related: true
 
-header_scripts:
+head_scripts:
   - /assets/js/edeka24-affiliate.js
 
 # Reading Files
