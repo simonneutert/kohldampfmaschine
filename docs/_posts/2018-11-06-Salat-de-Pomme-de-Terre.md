@@ -20,6 +20,7 @@ Warmer Kartoffelsalat
 | Kartoffeln vorgekocht und geschält | gek. Ei |
 | Fleischkäse | Wiener Würstchen |
 | 1 Zwiebel | Gewürzgurken | 
+| | Falafel |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 
@@ -31,7 +32,9 @@ Salz, Pfeffer, Senf, Öl, Gemüsebrühe, Essig
 2. Kartoffeln in Scheiben schneiden, Zwiebel fein würfeln
 3. Gemüsebrühe in der Mikrowelle kurz aufkochen
 4. Zwiebeln in die heiße Gemüsebrühe und mit Senf, Essig und Öl abschmecken
-5. Vermengen, salzen, pfeffern und eine halbe Stunde ziehen lassen
+5. Vermengen, salzen, pfeffern
+6. ca. eine halbe Stunde ziehen lassen
+6. Mit Fleischkäse, Falafel oder Würstchen servieren
 
 __Geheimtipp:__ Etwas Wasser der Kartoffeln nach dem Kochen als Basis für die Brühe nehmen.
 
