@@ -34,7 +34,7 @@ Salz, Pfeffer, Senf, Öl, Gemüsebrühe, Essig
 4. Zwiebeln in die heiße Gemüsebrühe und mit Senf, Essig und Öl abschmecken
 5. Vermengen, salzen, pfeffern
 6. ca. eine halbe Stunde ziehen lassen
-6. Mit Fleischkäse, Falafel oder Würstchen servieren
+7. Mit Fleischkäse, Falafel oder Würstchen servieren
 
 __Geheimtipp:__ Etwas Wasser der Kartoffeln nach dem Kochen als Basis für die Brühe nehmen.
 
