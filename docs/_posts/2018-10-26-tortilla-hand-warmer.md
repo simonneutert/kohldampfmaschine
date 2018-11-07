@@ -17,14 +17,14 @@ Chili Con Carne Soft Tortillas
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| _Uncle Ben's_ Basmati Reis | Joghurt oder Sour Creme |
-| _Gut und Günstig_ Chili Mix (Dose) | Minze oder Koriander |
+| <e24>Uncle Ben s Basmati Reis</e24> | Joghurt oder Sour Creme |
+| <e24>EDEKA Chili Bohnen</e24> Mix | Minze oder Koriander |
 | _Gut und Günstig_ Mozzarella | Eisbergsalat |
-| _Old El Paso Soft Tortillas (8x) | Hähnchenbrust |
-| |Tomaten |
-| |Chili |
-| |Speck |
-| |Avocado |
+| <e24>Old El Paso Stand N Stuff Soft Tortillas</e24> | Hähnchenbrust |
+| | Tomaten |
+| | Chili |
+| | Speck |
+| | Avocado |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 

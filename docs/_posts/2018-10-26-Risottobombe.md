@@ -17,8 +17,8 @@ Käse-Reis-Schüssel
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| _Uncle Ben's_ Mediterran Reis 1x p.P. | Joghurt oder Sour Creme |
-| 1 Mozzarella | Minze oder Koriander |
+| <e24>Uncle Ben's Mediterran Reis</e24> 1x p.P. | Joghurt oder Sour Creme |
+| Mozzarella | Minze oder Koriander |
 | 150g Hähnchenbrust | Tomate |
 
 #### aus dem {% include lager-bestand-tipps.html %}
