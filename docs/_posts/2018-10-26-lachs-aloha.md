@@ -18,7 +18,7 @@ Lachs Avocado Tortilla
 
 | Hauptzutaten | optionale Zutaten |
 |---|---|
-| <e24>Uncle Ben's_ Basmati Reis</e24> | Lachs Sauce |
+| <e24>Uncle Ben's Basmati Reis</e24> | Lachs Sauce |
 | Lachs | Minze oder Koriander |
 | Avocado | Eisbergsalat |
 | <e24>Old El Paso Soft Tortillas</e24> | Salatgurke |
