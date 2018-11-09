@@ -46,14 +46,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
                   continue;
                 }
                 let match = word.toLowerCase().match(productName.toLowerCase());
-                try {
-                  if (match.index == 0) {
-                    data[element].score += 100;
-                  } else if (match.index > 0) {
-                    data[element].score += 10;
-                  }
-                } catch (e) {
-                  // next element
+                if (!match) {
+                  continue;
+                }
+                if (match.index === 0) {
+                  data[element].score += 100;
+                } else if (match.index > 0) {
+                  data[element].score += 10;
                 }
               }
             }
@@ -67,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             return a.score - b.score;
           });
           let tempHTML = e.innerHTML;
-          e.innerHTML = "<a href=\"http://edeka24.de" + matches.pop().url + "\" target=\"_blank\">" + tempHTML + "</a>";
+          e.innerHTML = "<a href=\"http://edeka24.de" + matches.pop().url + "/" target=\"_blank\">" + tempHTML + "</a>";
           resetScores(data);
         } // end of edeka24 tag loop
       }
