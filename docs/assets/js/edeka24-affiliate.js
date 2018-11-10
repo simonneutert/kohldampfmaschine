@@ -27,12 +27,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (html5Tags.length > 0) {
       addAttributeWithDefaultVal(data, 'score', 0);
       for (let element of html5Tags) {
-        var tempHTML = element.innerHTML;
-        for (let word of productNameList(element.textContent)) {
+        let tempHTML = element.innerHTML;
+        let nameList = productNameList(element.textContent);
+        if (nameList.length < 2) {
+          continue; // guard clause
+        }
+        for (let word of nameList) {
           if (word.length < 4) {
             continue; // guard clause
           } else {
-            runComparison(data, word);
+            runComparisonScore(data, word);
           }
         }
         writeLinkToHtml(data, element)
@@ -51,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return p.toLowerCase().replace(/[^A-Za-z0-9!?]/g, "_").split('_')
   }
 
-  function runComparison(data, word) {
+  function runComparisonScore(data, word) {
     for (let element in data) {
       for (let productNameWord of data[element].name.split(' ')) {
         if (productNameWord.length < 4) {
