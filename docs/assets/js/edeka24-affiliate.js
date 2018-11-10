@@ -1,24 +1,20 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   if (document.getElementsByTagName("e24").length <= 0) {
-    return
-  }
-
-  function resetScores(data) {
-    for (element in data) {
-      data[element].score = 0;
-    }
+    return // guard clause
   }
 
   function loadJSON(path, success, error) {
-    var xhr = new XMLHttpRequest();
+    let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         if (xhr.status === 200) {
-          if (success)
+          if (success) {
             success(JSON.parse(xhr.responseText));
+          }
         } else {
-          if (error)
+          if (error) {
             error(xhr);
+          }
         }
       }
     };
@@ -26,17 +22,71 @@ document.addEventListener("DOMContentLoaded", function(event) {
     xhr.send();
   }
 
-  function score(data, element, match) {
+  function addUrlToEdekaHtmlTags(data, tag) {
+    let html5Tags = document.getElementsByTagName(tag);
+    if (html5Tags.length > 0) {
+      addAttributeWithDefaultVal(data, 'score', 0);
+      for (let element of html5Tags) {
+        var tempHTML = element.innerHTML;
+        for (let word of productNameList(element.textContent)) {
+          if (word.length < 4) {
+            continue; // guard clause
+          } else {
+            runComparison(data, word);
+          }
+        }
+        writeLinkToHtml(data, element)
+        resetScores(data);
+      }
+    }
+  }
+
+  function addAttributeWithDefaultVal(data, attr, val) {
+    for (let element in data) {
+      data[element][attr] = val;
+    }
+  }
+
+  function productNameList(p) {
+    return p.toLowerCase().replace(/[^A-Za-z0-9!?]/g, "_").split('_')
+  }
+
+  function runComparison(data, word) {
+    for (let element in data) {
+      for (let productNameWord of data[element].name.split(' ')) {
+        if (productNameWord.length < 4) {
+          continue; // guard clause
+        } else {
+          let match = word.toLowerCase().match(productNameWord.toLowerCase());
+          if (!match) {
+            continue; // guard clause
+          } else {
+            scoreProduct(data, element, match)
+          }
+        }
+      }
+    }
+  }
+
+  function scoreProduct(data, element, match) {
     if (match.index === 0) {
+      // scores full match
       data[element].score += 100;
     } else if (match.index > 0) {
+      // scores partly match
       data[element].score += 10;
     }
   }
 
+  function writeLinkToHtml(data, element) {
+    const tempHTML = element.innerHTML;
+    const productWithHighestMatchUrl = filterSortMatches(data).pop().url;
+    element.innerHTML = "<a href=\"http://edeka24.de" + productWithHighestMatchUrl + "\" target=\"_blank\">" + tempHTML + "</a>";
+  }
+
   function filterSortMatches(data) {
     let matches = [];
-    for (hit in data) {
+    for (let hit in data) {
       if (data[hit].score > 100) {
         matches.push(data[hit]);
       }
@@ -47,51 +97,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return matches;
   }
 
-  function addAttributeWithDefaultVal(data, attr, val) {
-    for (var element in data) {
-      data[element][attr] = val;
+  function resetScores(data) {
+    for (let element in data) {
+      data[element].score = 0;
     }
-  }
-
-  function writeLinkToHtml(data, e) {
-    const tempHTML = e.innerHTML;
-    e.innerHTML = "<a href=\"http://edeka24.de" + filterSortMatches(data).pop().url + "\" target=\"_blank\">" + tempHTML + "</a>";
-  }
-
-  function productNameList(p) {
-    return p.toLowerCase().replace(/[^A-Za-z0-9!?]/g, "_").split('_')
   }
 
   loadJSON('/products.json',
     function(data) {
-      const edeka24 = document.getElementsByTagName("e24");
-      if (edeka24.length > 0) {
-        addAttributeWithDefaultVal(data, 'score', 0)
-        for (e of edeka24) {
-          for (word of productNameList(e.textContent)) {
-            if (word.length < 4) {
-              continue; // guard clause
-            } else {
-              for (element in data) {
-                for (productName of data[element].name.split(' ')) {
-                  if (productName.length < 4) {
-                    continue; // guard clause
-                  } else {
-                    let match = word.toLowerCase().match(productName.toLowerCase());
-                    if (!match) {
-                      continue; // guard clause
-                    } else {
-                      score(data, element, match)
-                    }
-                  }
-                }
-              }
-            }
-          }
-          writeLinkToHtml(data, e)
-          resetScores(data);
-        } // end of edeka24 tag loop
-      }
+      addUrlToEdekaHtmlTags(data, "e24");
     },
     function(xhr) {
       // ajax failed
