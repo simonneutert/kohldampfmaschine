@@ -19,7 +19,7 @@ Herzhafter Laugenkranz
 | Laugenkranz | gek. Ei |
 | _Gut und Günstig_ Schinkenkrustenbraten | Tomate |
 | Salat | Käse |
-| Salatgurke | |
+| Salatgurke | Frischkäse |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 
