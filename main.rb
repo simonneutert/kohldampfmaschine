@@ -11,34 +11,47 @@ class Edeka24
     @data = {}
   end
 
+  def whitelist
+    [
+      'Lebensmittel', 'Getraenke'
+    ]
+  end
+
+  def blacklist
+    [
+      'Wein', 'Spirituosen', 'Sekt',
+      'Drogerie', 'Knabber', 'Kaffee',
+      'Whisky', 'brot', 'Likoere',
+      'Tee', 'Sportlernahrung', 'Kaugummi',
+      'Konfituere', 'zucker', 'Wrigleys',
+      'Mixgetraenke', 'Riegel', 'Bonbons',
+      'Muesli', 'Kuchen', 'Aufstrich',
+      'Saefte', 'Trolli', 'Backzutaten',
+      'Haribo', 'Marmelade', 'Suesswaren',
+      'glutenfrei', 'laktosefrei', 'Essig',
+      'Erfrischungsgetraenke'
+    ]
+  end
+
   def parse_sitemap
     robots = Nokogiri::HTML(open('https://www.edeka24.de/robots.txt'))
-    sitemap_url = robots.content.split("\r\n").select { |e| e.include?('sitemap') }.first.split(' ').last
+    sitemap_url_tag = robots.content.split("\r\n").select do |e|
+      e.include?('sitemap')
+    end
+    sitemap_url = sitemap_url_tag.first.split(' ').last
 
     sitemap_xml = Nokogiri::XML(open(sitemap_url))
     sitemap_urls = sitemap_xml.css('loc').map(&:text)
 
-    sitemap_urls.each { |url| @data[url] = Nokogiri::HTML(open(url)).css("loc").map(&:text) }
+    sitemap_urls.each do |url|
+      @data[url] = Nokogiri::HTML(open(url)).css("loc").map(&:text)
+    end
     self
   end
 
   def parse_products
     @data.first.last.each_with_index do |item, i|
       # guard clauses
-      whitelist = ['Lebensmittel', 'Getraenke']
-      blacklist = [
-        'Wein', 'Spirituosen', 'Sekt',
-        'Drogerie', 'Knabber', 'Kaffee',
-        'Whisky', 'Erfrischungsgetraenke', 'Likoere',
-        'Tee', 'Sportlernahrung', 'Kaugummi',
-        'Konfituere', 'zucker', 'Wrigleys',
-        'Mixgetraenke', 'Riegel', 'Bonbons',
-        'Muesli', 'Kuchen', 'aufstrich',
-        'Saefte', 'Trolli', 'Backzutaten',
-        'Haribo', 'Marmelade', 'Suesswaren',
-        'glutenfrei', 'laktosefrei', 'Essig',
-        'brot'
-      ]
       next unless whitelist.any? { |word| item.downcase.include?(word.downcase) }
       next if blacklist.any? { |word| item.downcase.include?(word.downcase) }
 
