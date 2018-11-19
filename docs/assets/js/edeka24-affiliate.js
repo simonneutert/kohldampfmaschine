@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   function addUrlToEdekaHtmlTags(data, tag) {
     let html5Tags = document.getElementsByTagName(tag);
-    if (html5Tags.length <= 0) { return; }
+    if (html5Tags.length <= 0) {
+      return;
+    }
     addAttributeWithDefaultVal(data, 'score', 0);
     for (let element of html5Tags) {
       let tempHTML = element.innerHTML;
@@ -46,13 +48,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return productName.toLowerCase().replace(/[^A-Za-z0-9!?']/g, "_").split('_');
   }
 
+
   function productNameCheck(data, productNameList) {
-    if (productNameList.length < 2) { return; }
+    if (productNameList.length < 2) {
+      return;
+    }
 
     for (let word of productNameList) {
-      if (word.length < 4) {
-        continue; // guard clause
-      } else {
+      if (word.length > 3) {
         runComparisonScore(data, word);
       }
     }
@@ -69,9 +72,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   function runComparisonScore(data, word) {
     for (let element in data) {
       for (let productName of data[element].name.split(' ')) {
-        if (productName.length < 4) {
-          continue; // guard clause
-        } else {
+        if (productName.length > 3) {
           scoreProduct(data, element, matchStrings(word, productName));
         }
       }
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       // scores full match
       data[element].score += 100;
     } else if (match.index > 0) {
-      // scores partly match
+      // scores part match
       data[element].score += 10;
     }
   }
@@ -126,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   loadJSON('/products.json', function(data) {
       addUrlToEdekaHtmlTags(data, "e24");
-  },
+    },
     function(xhr) {
       // ajax failed
       console.error(xhr);
