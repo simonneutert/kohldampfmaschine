@@ -23,21 +23,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     xhr.send();
   }
 
-  function scoreProducts(data, nameList) {
-
-  }
-
   function addUrlToEdekaHtmlTags(data, tag) {
     let html5Tags = document.getElementsByTagName(tag);
-    if (html5Tags.length > 0) {
-      addAttributeWithDefaultVal(data, 'score', 0);
-      for (let element of html5Tags) {
-        let tempHTML = element.innerHTML;
-        const productNames = productNameList(element.textContent);
-        productNameCheck(data, productNames);
-        writeLinkToHtml(data, element);
-        resetScores(data);
-      }
+    if (html5Tags.length <= 0) { return; }
+    addAttributeWithDefaultVal(data, 'score', 0);
+    for (let element of html5Tags) {
+      let tempHTML = element.innerHTML;
+      const productNames = productNameList(element.textContent);
+      productNameCheck(data, productNames);
+      writeLinkToHtml(data, element);
+      resetScores(data);
     }
   }
 
@@ -52,9 +47,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
   function productNameCheck(data, productNameList) {
-    if (productNameList.length < 2) {
-      return; // guard clause
-    }
+    if (productNameList.length < 2) { return; }
+
     for (let word of productNameList) {
       if (word.length < 4) {
         continue; // guard clause
@@ -99,7 +93,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
   function writeLinkToHtml(data, element) {
     const tempHTML = element.innerHTML;
     const productWithHighestMatchUrl = filterSortMatches(data).pop().url;
-    element.innerHTML = "<a href=\"http://edeka24.de" + productWithHighestMatchUrl + "\" target=\"_blank\">" + tempHTML + "</a>";
+    element.innerHTML = resultLink(productWithHighestMatchUrl, tempHTML);
+  }
+
+  function resultLink(productWithHighestMatchUrl, tempHTML) {
+    let html = '<a href="http://edeka24.de';
+    html += productWithHighestMatchUrl;
+    html += '" target="_blank">';
+    html += tempHTML;
+    html += '</a>';
+    return html;
   }
 
   function filterSortMatches(data) {
@@ -121,10 +124,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   }
 
-  loadJSON('/products.json',
-    function(data) {
+  loadJSON('/products.json', function(data) {
       addUrlToEdekaHtmlTags(data, "e24");
-    },
+  },
     function(xhr) {
       // ajax failed
       console.error(xhr);
