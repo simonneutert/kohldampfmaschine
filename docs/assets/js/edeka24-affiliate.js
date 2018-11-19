@@ -1,3 +1,4 @@
+"use strict";
 document.addEventListener("DOMContentLoaded", function(event) {
   if (document.getElementsByTagName("e24").length <= 0) {
     return // guard clause
@@ -22,24 +23,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
     xhr.send();
   }
 
+  function scoreProducts(data, nameList) {
+
+  }
+
   function addUrlToEdekaHtmlTags(data, tag) {
     let html5Tags = document.getElementsByTagName(tag);
     if (html5Tags.length > 0) {
       addAttributeWithDefaultVal(data, 'score', 0);
       for (let element of html5Tags) {
         let tempHTML = element.innerHTML;
-        let nameList = productNameList(element.textContent);
-        if (nameList.length < 2) {
-          continue; // guard clause
-        }
-        for (let word of nameList) {
-          if (word.length < 4) {
-            continue; // guard clause
-          } else {
-            runComparisonScore(data, word);
-          }
-        }
-        writeLinkToHtml(data, element)
+        const productNames = productNameList(element.textContent);
+        productNameCheck(data, productNames);
+        writeLinkToHtml(data, element);
         resetScores(data);
       }
     }
@@ -51,29 +47,47 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   }
 
-  function productNameList(p) {
-    return p.toLowerCase().replace(/[^A-Za-z0-9!?]/g, "_").split('_')
+  function productNameList(productName) {
+    return productName.toLowerCase().replace(/[^A-Za-z0-9!?']/g, "_").split('_');
+  }
+
+  function productNameCheck(data, productNameList) {
+    if (productNameList.length < 2) {
+      return; // guard clause
+    }
+    for (let word of productNameList) {
+      if (word.length < 4) {
+        continue; // guard clause
+      } else {
+        runComparisonScore(data, word);
+      }
+    }
+  }
+
+  function matchStrings(a, b) {
+    if (a.length <= b.length) {
+      return a.toLowerCase().match(b.toLowerCase());
+    } else {
+      return b.toLowerCase().match(a.toLowerCase());
+    }
   }
 
   function runComparisonScore(data, word) {
     for (let element in data) {
-      for (let productNameWord of data[element].name.split(' ')) {
-        if (productNameWord.length < 4) {
+      for (let productName of data[element].name.split(' ')) {
+        if (productName.length < 4) {
           continue; // guard clause
         } else {
-          let match = word.toLowerCase().match(productNameWord.toLowerCase());
-          if (!match) {
-            continue; // guard clause
-          } else {
-            scoreProduct(data, element, match)
-          }
+          scoreProduct(data, element, matchStrings(word, productName));
         }
       }
     }
   }
 
   function scoreProduct(data, element, match) {
-    if (match.index === 0) {
+    if (match === null || match === undefined) {
+      return;
+    } else if (match.index === 0) {
       // scores full match
       data[element].score += 100;
     } else if (match.index > 0) {
