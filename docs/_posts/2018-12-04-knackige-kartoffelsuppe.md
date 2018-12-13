@@ -30,7 +30,7 @@ Salz, Pfeffer
 2. Wiener Würstchen aus der Packung nehmen und in kleine - ca. 1cm große - Stücke schneiden
 3. Würstchen in die Kartoffelsuppe geben und umrühren
 4. Salz und Pfeffer nach Bedarf dazugeben
-5. Die Suppe ca. 2 1/2 Minuten in der Mikrowelle bei 900°C erhitzen
+5. Die Suppe ca. 2 1/2 Minuten in der Mikrowelle bei 900 W erhitzen
 6. Die Suppe aus der Mikrowelle nehmen und noch einmal umrühren
 7. Die Suppe mit dem Kartoffelbrötchen servieren
 
