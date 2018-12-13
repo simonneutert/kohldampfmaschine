@@ -1,7 +1,7 @@
 Simon Neutert:
-  name        : "Simon Neutert"
-  bio         : "Code. Cycle. Cmile."
-  avatar      : "/assets/images/simon.jpg"
+  name: "Simon Neutert"
+  bio: "Code. Cycle. Cmile."
+  avatar: "/assets/images/simon.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -9,3 +9,10 @@ Simon Neutert:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.simon-neutert.de"
+
+BloodhunterD:
+  name: "BloodhunterD"
+  links:
+    - label: "GitHub"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/BloodhunterD"
