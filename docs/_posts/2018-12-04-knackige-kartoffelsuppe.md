@@ -14,11 +14,11 @@ Knackige Kartoffelsuppe
 
 ### Einkaufsliste
 
-| Hauptzutaten |
+| Hauptzutaten | optionale Zutaten |
 |---|
-| <e24>Erasco 1 Portion Kartoffel-Topf mit Würstchen</e24> |
-| Wiener Würstchen |
-| Kartoffelbrötchen |
+| <e24>Erasco 1 Portion Kartoffel-Topf mit Würstchen</e24> | frische Petersilie |
+| Wiener Würstchen | Croutons |
+| Kartoffelbrötchen | Backerbsen |
 
 #### aus dem {% include lager-bestand-tipps.html %}
 
