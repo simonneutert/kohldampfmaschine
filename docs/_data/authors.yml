@@ -12,6 +12,7 @@ Simon Neutert:
 
 BloodhunterD:
   name: "BloodhunterD"
+  avatar: "/assets/images/david_b.jpg"
   links:
     - label: "GitHub"
       icon: "fas fa-fw fa-link"
