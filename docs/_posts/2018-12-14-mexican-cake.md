@@ -17,7 +17,7 @@ Mexican Cake
 | Hauptzutaten | optionale Zutaten |
 |---|
 | <e24>Old El Paso Soft Tortillas</e24> | frischer Koriander |
-| Hähnchenbrust | frische Chili |
+| gegrillte Hähnchenbrust | frische Chili |
 | gekochter Schinken | Sour Cream |
 | Avocado | Knoblauch |
 | Barbecue Sauce | |
