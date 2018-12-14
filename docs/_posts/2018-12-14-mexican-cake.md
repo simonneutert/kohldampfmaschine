@@ -16,12 +16,12 @@ Mexican Cake
 
 | Hauptzutaten | optionale Zutaten |
 |---|
-| Wraps | frischer Koriander |
+| <e24>Old El Paso Soft Tortillas</e24> | frischer Koriander |
 | Hähnchenbrust | frische Chili |
 | gekochter Schinken | Sour Cream |
 | Avocado | Knoblauch |
 | Barbecue Sauce | |
-| Salsa Sauce | |
+| <e24>EDEKA Sunny Tomato milde Salsa</e24> | |
 | Jalapeño aus dem Glas | |
 | Scheibletten Käse | |
 | Emmentaler gerieben | |
