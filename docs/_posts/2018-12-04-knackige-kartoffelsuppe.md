@@ -2,7 +2,7 @@
 layout: single
 title:  "Knackige Kartoffelsuppe"
 categories: suppe rustikal
-tags: kartoffel suppe wiener wuerstchen broetchen
+tags: kartoffel suppe wiener wuerstchen broetchen 5euro
 author: BloodhunterD
 header:
   overlay_image: /assets/images/rezepte/2018-12-04-knackige-kartoffelsuppe.jpg
