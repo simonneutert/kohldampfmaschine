@@ -9,4 +9,4 @@ sort_by: title
 classes: wide
 ---
 
-Rezeptideen für Mittagspause.
+Rezeptideen für die Mittagspause.
