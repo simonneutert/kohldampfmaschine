@@ -1,5 +1,5 @@
 ---
 title: "Kategorien"
 layout: categories
-permalink: /kategorien/
+permalink: /categories/
 ---
