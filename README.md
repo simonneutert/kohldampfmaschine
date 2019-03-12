@@ -17,4 +17,3 @@ Der gesamte Blog befindet sich in `$ cd docs/`.
 Dieses Projekt verwendet [Jekyll](https://jekyllrb.com) und folgt den Konventionen der Dokumentation (Lesezeit: 5 Minuten).
 
 Alle grundlegenden Einstellungen findest du in `_config.yml`.
-
