@@ -22,14 +22,14 @@ class Edeka24
   private
 
   def parse_sitemap
-    robots_file = Nokogiri::HTML(open('https://www.edeka24.de/robots.txt'))
+    robots_file = Nokogiri::HTML(URI.open('https://www.edeka24.de/robots.txt'))
     sitemap_url_tag = robots_file.content.split("\r\n").select do |e|
       e.include?('sitemap')
     end
     sitemap_url = sitemap_url_tag.first.split(' ').last
-    sitemap_urls = Nokogiri::XML(open(sitemap_url)).css('loc').map(&:text)
+    sitemap_urls = Nokogiri::XML(URI.open(sitemap_url)).css('loc').map(&:text)
     sitemap_urls.each do |url|
-      @data[url] = Nokogiri::HTML(open(url)).css('loc').map(&:text)
+      @data[url] = Nokogiri::HTML(URI.open(url)).css('loc').map(&:text)
     end
     self
   end
