@@ -1,4 +1,4 @@
-FROM ruby:2.5.3-stretch
+FROM ruby:2.7.5
 
 RUN bundle config --global frozen 1
 
